@@ -1,0 +1,32 @@
+
+{% load static%}
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+{% endblock %}
+
+<br><br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-7">
+       {% for image in images %}
+        <div class="card">
+            <div class="card-header">
+              <span>{{image.user}}</span>
+            </div>
+            
+              <div>
+              <i class="far fa-heart"></i>
+                <i>{{image.likes}} likes</i>
+              </div>
+              <div>
+                <i>{{image.post_date}} </i>
+                </div>
+            </div>
+          </div>
+          <br><br>
+        {% endfor %}
+    </div>
+    <div class="col-md-4">
+    </div> 
+  

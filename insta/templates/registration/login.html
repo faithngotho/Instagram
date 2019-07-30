@@ -9,13 +9,13 @@
     </div>
     <div class="col-md-6">
       {% if form.errors %}
-      <p> Some Information Might be Incorrect </p>
+      <p> Password or Username is incorrect </p>
       {% endif %}
       <div class="card mb-4">
         <div class="card-header text-center">
           <h1 class="h1" style="font-family: 'Normal', cursive; font-size:65px;">Instagram</h1>
         </div>
-        <div class="card-body">
+        <div class="panel pane-default">
           <form action="/accounts/login/" method="post">
             {% csrf_token %} 
             {% bootstrap_form form%}
