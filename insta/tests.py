@@ -35,7 +35,7 @@ class ImageTestClass(TestCase):
         self.flower = Image(name='flower')
 
     def test_instance(self):
-        self.assertTrue(isinstance(self.macakura, Image))
+        self.assertTrue(isinstance(self.image, Image))
 
     def tearDown(self):
         Image.objects.all().delete()
