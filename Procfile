@@ -1,0 +1,1 @@
+web: gunicorn pheiyyapp.wsgi --log-file -
