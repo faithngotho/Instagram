@@ -20,19 +20,19 @@ https://faithinsta.herokuapp.com/
  
 ## Setup
   Clone the application using git clone(this copies the app onto your device). In your terminal:
-
  1. $ git clone https://github.com/faithngotho/instagram.git
  2. $ cd Instagram
  3. Installation
  4. Create and activate your virtual environment:
- a. $ python3.6 -m venv
- b. $ source virtual/bin/activate
- c. (virtual)$ pip install -r requirements.txt
+ 5. $ python3.6 -m venv
+ 6. $ source virtual/bin/activate
+ 7. (virtual)$ pip install -r requirements.txt
  
-Technologies
-Python 3.6
-Django 1.1
-Bootstrap 3
+## Technologies
+
+1. Python 3.6
+2. Django 1.1
+3. Bootstrap 3
 Known bugs
 There are no known bugs as of now.
 
