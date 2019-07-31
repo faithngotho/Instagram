@@ -5,7 +5,7 @@
 ## Description
 An instagram is an application where a user can sign up and post and also view other users, follow them and like and omment on their posts
 
-Link to live site
+## Link to live site
 https://faithinsta.herokuapp.com/
 
 ## BDD
