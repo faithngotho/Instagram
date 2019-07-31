@@ -26,7 +26,7 @@ class ProfileTestClass(TestCase):
     def test_update(self):
         self.faith.save()
         self.faith.username = 'faith'
-        self.assertTrue(self.mango.username == 'faith')
+        self.assertTrue(self.faith.username == 'faith')
 
 
 class ImageTestClass(TestCase):

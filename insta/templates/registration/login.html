@@ -1,43 +1,58 @@
-{% extends "registration/base.html"%} 
-{% load bootstrap3 %} 
-{% load static %} 
+<link rel="icon" href='https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/instagram-logo-796x404.png'
+  type="icon/images">
+{%extends "registration/base.html"%}
+{% load bootstrap3 %}
 {% block content %}
-<div class="container" style="background-color:blue;">
+<div class="container">
   <div class="row">
-    <div class="col-md-6">
-      <img src="/static/images/iphonIG.gif" alt="Demo" class="img-fluid" >
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <img class='phone'
+        src="https://www.digitalmarketingceo.com/wp-content/uploads/2018/09/Screen-Shot-2018-09-03-at-11.05.04-PM-e1536030535339.png"
+        width="550px" alt="Image" />
     </div>
-    <div class="col-md-6">
-      {% if form.errors %}
-      <p> Password or Username is incorrect </p>
-      {% endif %}
-      <div class="card mb-4">
-        <div class="card-header text-center">
-          <h1 class="h1" style="font-family: 'Normal', cursive; font-size:65px;">Instagram</h1>
-        </div>
-        <div class="panel pane-default">
-          <form action="/accounts/login/" method="post">
-            {% csrf_token %} 
-            {% bootstrap_form form%}
-            <div class="form-group">
-              <input type="submit" class="btn btn-primary btn-sm" value="Login">
-            </div>
-      
-            <input type="hidden" name="next" value="{{next}}">
-          </form>
-        </div>
-      </div>
-        <div class="card mt-5" >
-            <div class="card-body text-center">
-              <h5 class="card-title">Don't have an account?</h5>
-              <a href="/accounts/register" class="btn btn-primary">Sign Up</a>
-            </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-5">
+
+      <div class="panel-body">
+        {% if form.errors %}
+        <p> Password or Username is incorrect </p>
+        {% endif %}
+        <div class="panel panel-default" id='reg'>
+
+          <div class="panel-heading">
+            <img
+              src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png'
+              width='350px'>
           </div>
+          <div class="panel-body">
+
+            <form action="/accounts/login/" method="post">
+              {% csrf_token %}
+              {% bootstrap_form form%}
+
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-sm" value="Login">
+              </div>
+
+              <input type="hidden" name="next" value="{{next}}">
+
+            </form>
+          </div><br><br><br>
+          <div class="panel-footer">
+                <small class='text-muted'>
+                  need an account?<a class='ml-2' href="{%url 'register'%}">&nbsp;&nbsp;Signup</a>
+                </small>
+              </div>
+              <p>Get the app</p>
+              <img
+              src='https://icon-library.net/images/app-store-icon-png/app-store-icon-png-6.jpg'width='100px' height='50px'>
+              <img
+              src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'width='100px' height='75px'>
+        
+
+        </div>
+
+      </div>
     </div>
   </div>
 </div>
-<br>
-<br>
-</div>
-
-{% endblock %}
+  {% endblock %}
