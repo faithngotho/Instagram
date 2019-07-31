@@ -39,3 +39,8 @@ There are no known bugs as of now.
 
 ## Support
 For any questions, troubleshooting or contributions, contact me through: Email: faithwangari248@gmail.com
+
+MIT License
+
+Copyright (c) 2019 faithngotho
+
