@@ -9,27 +9,27 @@ Link to live site
 https://faithinsta.herokuapp.com/
 
 ## BDD
-Behaviour	Input	Output
+|Behaviour      |	Input	                      |Output                               |
+|---------------|-----------------------------|-------------------------------------|
+|Update Profile	|Click update profile button	|Image is dipalyed on the profile page|
 
-|Update Profile	                  |Click update profile button	|Image is dipalyed on the profile page|
-|Post	Click on the update button	|Post is displayed on home page
+## Requirements
+ python3.6
+ pip
+ Virtual environment(virtualenv)
+ 
+## Setup
+ Clone the application using git clone(this copies the app onto your device). In your terminal:
 
-Setup
-Requirements
-python3.6
-pip
-Virtual environment(virtualenv)
-Setup
-Clone the application using git clone(this copies the app onto your device). In your terminal:
+ $ git clone https://github.com/faithngotho/instagram.git
+ $ cd Instagram
+ Installation
+ Create and activate your virtual environment:
 
-$ git clone https://github.com/faithngotho/instagram.git
-$ cd Instagram
-Installation
-Create and activate your virtual environment:
-
-$ python3.6 -m venv
-$ source virtual/bin/activate
-(virtual)$ pip install -r requirements.txt
+ $ python3.6 -m venv
+ $ source virtual/bin/activate
+ (virtual)$ pip install -r requirements.txt
+ 
 Technologies
 Python 3.6
 Django 1.1
