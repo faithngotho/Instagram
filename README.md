@@ -31,10 +31,11 @@ https://faithinsta.herokuapp.com/
 ## Technologies
 
 1. Python 3.6
-2. Django 1.1
-3. Bootstrap 3
-Known bugs
+2. Django 1.11
+3. Bootstrap3
+
+## Known bugs
 There are no known bugs as of now.
 
-Support
+## Support
 For any questions, troubleshooting or contributions, contact me through: Email: faithwangari248@gmail.com
