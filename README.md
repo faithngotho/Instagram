@@ -8,7 +8,7 @@ An instagram is an application where a user can sign up and post and also view o
 Link to live site
 https://faithinsta.herokuapp.com/
 
-BDD
+## BDD
 Behaviour	Input	Output
 
 Update Profile	Click update profile button	Image is dipalyed on the profile page
@@ -22,8 +22,8 @@ Virtual environment(virtualenv)
 Setup
 Clone the application using git clone(this copies the app onto your device). In your terminal:
 
-$ git clone https://github.com/Machanga/instaclone.git
-$ cd Instaclone
+$ git clone https://github.com/faithngotho/instagram.git
+$ cd Instagram
 Installation
 Create and activate your virtual environment:
 
@@ -38,4 +38,4 @@ Known bugs
 There are no known bugs as of now.
 
 Support
-For any questions, troubleshooting or contributions, contact me through: Email: florenceshiru765@gmail.com
+For any questions, troubleshooting or contributions, contact me through: Email: faithwangari248@gmail.com
