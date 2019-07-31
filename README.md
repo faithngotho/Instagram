@@ -14,17 +14,17 @@ https://faithinsta.herokuapp.com/
 |Update Profile	|Click update profile button	|Image is dipalyed on the profile page|
 
 ## Requirements
- python3.6
- pip
- Virtual environment(virtualenv)
+1. python3.6
+2. pip
+3. Virtual environment(virtualenv)
  
 ## Setup
- Clone the application using git clone(this copies the app onto your device). In your terminal:
+  Clone the application using git clone(this copies the app onto your device). In your terminal:
 
- $ git clone https://github.com/faithngotho/instagram.git
- $ cd Instagram
- Installation
- Create and activate your virtual environment:
+ 1. $ git clone https://github.com/faithngotho/instagram.git
+ 2. $ cd Instagram
+ 3. Installation
+ 4. Create and activate your virtual environment:
 
  $ python3.6 -m venv
  $ source virtual/bin/activate
