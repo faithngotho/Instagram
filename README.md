@@ -11,8 +11,8 @@ https://faithinsta.herokuapp.com/
 ## BDD
 Behaviour	Input	Output
 
-Update Profile	Click update profile button	Image is dipalyed on the profile page
-Post	Click on the update button	Post is displayed on home page
+|Update Profile	                  |Click update profile button	|Image is dipalyed on the profile page|
+|Post	Click on the update button	|Post is displayed on home page
 
 Setup
 Requirements
