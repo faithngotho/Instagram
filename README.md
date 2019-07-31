@@ -25,10 +25,9 @@ https://faithinsta.herokuapp.com/
  2. $ cd Instagram
  3. Installation
  4. Create and activate your virtual environment:
-
- $ python3.6 -m venv
- $ source virtual/bin/activate
- (virtual)$ pip install -r requirements.txt
+ a. $ python3.6 -m venv
+ b. $ source virtual/bin/activate
+ c. (virtual)$ pip install -r requirements.txt
  
 Technologies
 Python 3.6
